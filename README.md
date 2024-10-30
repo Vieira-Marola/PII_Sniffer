@@ -21,7 +21,7 @@
 
 1. **Baixe a extensão**: Clone ou baixe este repositório para obter o arquivo `PII_Sniffer.py`.
 2. **Instale o Jython no Burp**:
-   - No Burp Suite, vá em **Extender > Options**.
+   - No Burp Suite, vá em **Extender > Options**. (images/pii_sniffer_extensions.png)
    - Na seção **Python Environment**, configure o caminho do Jython Standalone baixado (ex: `jython-standalone-2.7.2.jar`).
 3. **Carregue a extensão**:
    - Vá para **Extender > Extensions**.
