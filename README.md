@@ -55,3 +55,13 @@
    - A extensão exibe CPFs, números de telefone, datas e cartões de crédito identificados para que o analista possa verificar potenciais vazamentos de dados pessoais.
 
      ![](images/pii_sniffer_result.png)
+
+Cada item identificado é validado e exibido, oferecendo um diagnóstico completo de possíveis vazamentos de informações pessoais.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork do projeto, abrir pull requests ou relatar problemas.
+
+---
+
+**Nota**: Esta extensão é para uso ético. Sempre obtenha permissão para testar e analisar dados de terceiros. O uso indevido desta ferramenta é de responsabilidade única e exclusiva do usuário.
