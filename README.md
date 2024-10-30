@@ -25,17 +25,25 @@
 
      ![](images/pii_sniffer_extensions.png)
    
-   - Na seção **Python Environment**, configure o caminho do Jython Standalone baixado (ex: `jython-standalone-2.7.2.jar`).
+   - Na seção **Python Environment**, configure o caminho do Jython Standalone baixado (ex: `jython-standalone-2.7.4.jar`).
 
      ![](images/pii_sniffer_pt1.png)
 
 3. **Carregue a extensão**:
    - Vá para **Extender > Extensions**.
    - Clique em **Add**.
+
+     ![](images/pii_sniffer_add.png)
+   
    - Selecione **Extension Type: Python**.
    - Em **Extension file**, selecione o arquivo `PII_Sniffer.py`.
-4. **Confirmação da Instalação**:
+
+     ![](images/pii_sniffer_final.png)
+     
+5. **Confirmação da Instalação**:
    - Uma mensagem de confirmação (“PII Sniffer, Installation OK!!!”) deve aparecer na aba de saída do Burp Suite.
+
+     ![](images/pii_sniffer_instalation_ok.png)
 
 ## Como Usar
 
@@ -45,3 +53,5 @@
    - Ao encontrar uma correspondência válida, como um CPF, telefone, data ou cartão de crédito, o item será exibido no log de saída.
 3. **Resultados**:
    - A extensão exibe CPFs, números de telefone, datas e cartões de crédito identificados para que o analista possa verificar potenciais vazamentos de dados pessoais.
+
+     ![](images/pii_sniffer_result.png)
